@@ -1,12 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color:  #434455;
 	background-color: #FFFFFF;
+    margin: 0;
 
 }
-ul {
-    list-style-type: none;
+h1,h2,h3 {
+    margin: 0;
 }
+p {
+    margin: 0;
+}
+ul ,li{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+.container{
+    width: 1440px;
+    height: 72px;
+        
+}
+
 .logoweb{
     color:#4D5AE5; 
     font-family: "Raleway",sans-serif;     
@@ -15,6 +36,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 .logostudio-main {
     color: #2e2f42;     
