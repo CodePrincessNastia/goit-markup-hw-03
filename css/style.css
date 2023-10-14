@@ -30,7 +30,7 @@ img {
 }
 .container{   
     display: flex;
-    margin: 0 ;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center; 
@@ -134,14 +134,11 @@ a:focus {
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px;
-    min-width: 300px;
-    margin: 0;
-    padding: 0;
     margin: 0 auto; /* Вирівнюємо по центру по горизонталі */
   }
   
   .button_baner {
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
@@ -199,7 +196,10 @@ a:focus {
   
   .features-item  {
     width: calc((100% - 72px) / 4);
+    display: block;
+ 
   }
+
   
 .section-heading {
     color: #2E2F42;
@@ -208,6 +208,9 @@ a:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: left;
+   
+    
 
 }
 .section-description {
@@ -217,8 +220,8 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+    
    
-
 }
 
 .team {
@@ -239,6 +242,8 @@ a:focus {
 .team_member {
     display: flex;
     gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .team_item {
     background-color: #FFFFFF;
@@ -250,7 +255,7 @@ a:focus {
     padding: 32px 0 ;
   
 }
-.section-heading {
+.team-heading {
     color: #2e2f42  ;
     font-size: 20px;
     font-weight: 500;
@@ -259,13 +264,17 @@ a:focus {
     text-align: center;
     margin-bottom: 8px;
 }
-.section-description {
+.team_description {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .main-title {
     color:#2E2F42;
@@ -275,6 +284,23 @@ a:focus {
     text-align: center ;
     letter-spacing: 0.02em ;
     text-transform: capitalize;
+    margin-bottom: 72px;
+
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 24px; 
+    row-gap: 48px; 
+}
+.portfolio-item {
+    width: calc((100% - 48px) / 3); 
+    
+}
+.project-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
 .project-title {
     color: #2e2f42;
@@ -282,6 +308,7 @@ a:focus {
     font-weight: 500;
     line-height: 1.2 ;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 
 }
@@ -311,5 +338,5 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-    
+
 }
