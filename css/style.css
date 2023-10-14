@@ -9,6 +9,7 @@ body {
     color:  #434455;
 	background-color: #FFFFFF;
     margin: 0 ;
+    border: 1px solid red;
 }
 h1,h2,h3 {
     margin: 0 auto;
@@ -28,21 +29,29 @@ img {
 .logo {
     border-bottom: 1px solid #e7e9fc;
 }
+
+.your-class-name{
+    display: flex;
+}
 .container{   
+    border: 1px solid yellow;
     display: flex;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center; 
     width: 1158px;
-         
+    justify-content: center; 
+  align-items: center;
 }
 .navigation {
-    display: flex ;
+    
     align-items: center;
-  
+    flex-grow: 4;
+  }
+.address {
+    flex-grow: 1;
 }
-
 .logoweb{
     color:#4D5AE5; 
     font-family: "Raleway",sans-serif;     
@@ -52,9 +61,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
      margin-right: 76px;
-   /*align-items:center ;*/
-
-}
+     flex-grow: 1;
+   }
 .logostudio-main {
     color: #2e2f42;     
 }
@@ -62,18 +70,17 @@ img {
     color: #F4F4FD;      
 }
 .nav-list {
-    list-style: none; /* Забирає маркери списку */
-    padding: 0; /* Забирає відступи */
-    display: flex; /* Встановлює контейнер списку як flex-контейнер */
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
     gap: 40px ;
-
+    flex-grow: 3;
 }
 .nav-link {
     display: inline; 
     margin-right: 40px ;
     padding-top: 24px; 
     padding-bottom: 24px;
-
 }
 .nav-item {
     color:#2e2f42;
@@ -84,12 +91,10 @@ img {
     min-width: 120px;
 }
 .address {
-    font-style: normal;    
-    gap: 40px;
+    font-style: normal;   
     margin-right: 40 px;
-    min-width: 640px;
-    justify-content:left;
-    
+    flex-grow: 1;
+ 
 } 
 .link-navigation {
     display: flex;  
@@ -115,15 +120,15 @@ img {
 a:hover,
 a:focus {
     color: #404bbf;
-    
+}
 
-}.baner {
+.baner {
     background-color: #2E2F42;
     letter-spacing: 0.02em;
     padding-top: 188px;
     padding-bottom: 188px;
-    min-width: 1440px;
-    text-align: center; /* Вирівнюємо вміст по центру по горизонталі */
+    width: 100%;
+    text-align: center; 
   }
   
   .banner-heading {
@@ -133,8 +138,8 @@ a:focus {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    max-width: 496px;
-    margin: 0 auto; /* Вирівнюємо по центру по горизонталі */
+    width: 496px;
+    margin: 0 auto; 
   }
   
   .button_baner {
@@ -149,7 +154,7 @@ a:focus {
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: 0 auto; /* Вирівнюємо по центру по горизонталі */
+    margin: 0 auto; 
     margin-top: 48px;
   }
 .button_baner {
@@ -163,7 +168,7 @@ a:focus {
 .button_baner:focus {
     background-color: #404BBF; 
  }
- .mycontent {
+ .my_content {
     padding-top: 120px; 
     padding-bottom: 120px;
  }
@@ -191,7 +196,7 @@ a:focus {
     gap: 24px;
     margin-left: 156px;
     margin-right: 156px;
-    /*flex-direction: column; /* Змінюємо напрямок розташування елементів на стовпці */
+    
 }
   
   .features-item  {
@@ -228,6 +233,7 @@ a:focus {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+    width: 100%;
 }
 .group {
     color: #2E2F42;
@@ -247,7 +253,7 @@ a:focus {
 }
 .team_item {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 24px) / 4);
     border-radius: 0px 0px 4px 4px; 
     
 }
