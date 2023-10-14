@@ -30,9 +30,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.your-class-name{
-    display: flex;
-}
+
 .container{   
     border: 1px solid yellow;
     display: flex;
@@ -48,6 +46,7 @@ img {
     
     align-items: center;
     flex-grow: 4;
+    display: flex;
   }
 .address {
     flex-grow: 1;
@@ -131,7 +130,7 @@ a:focus {
     text-align: center; 
   }
   
-  .banner-heading {
+  .banner_heading {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
