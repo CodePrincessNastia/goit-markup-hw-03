@@ -137,7 +137,6 @@ a:focus {
 }
 
 .baner {
-    
     /*letter-spacing: 0.02em;*/
   
     /*display: flex;*/
@@ -161,7 +160,7 @@ a:focus {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto; 
   }
   .button_baner {
@@ -202,7 +201,7 @@ a:focus {
 }
 
 
-.visually_hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -250,12 +249,12 @@ a:focus {
     
    
 }
-
-.team_name {
-    background-color: #F4F4FD;
+.team {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 100%;
+}
+.team_name {
+    background-color: #F4F4FD;
     margin-bottom: 72px;
 }
 .group {
@@ -356,6 +355,8 @@ a:focus {
     padding-bottom: 100px;
       
 }
+
+
 .logostudiofooter {
     display: inline-block;
     margin-bottom: 16px;
@@ -367,5 +368,6 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  
 
 }
