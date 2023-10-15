@@ -205,12 +205,13 @@ a:focus {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
   .features_list {
     display: flex;
@@ -235,10 +236,7 @@ a:focus {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: left;
-   
-    
-
-}
+   }
 .section_description {
     color: #434455;
     font-size: 16px;
@@ -337,8 +335,6 @@ a:focus {
     line-height: 1.2 ;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
-
 }
 .project_description{
     color: #434455;
@@ -353,9 +349,11 @@ a:focus {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
       
 }
-
 
 .logostudiofooter {
     display: inline-block;
