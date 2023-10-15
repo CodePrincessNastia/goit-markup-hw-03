@@ -35,7 +35,7 @@ header.container {
 
 
 .container{   
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -73,7 +73,7 @@ header.container {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-     margin-right: 76px;
+    margin-right: 76px;
    }
 .logostudio-main {
     color: #2e2f42;     
@@ -138,17 +138,21 @@ a:focus {
 
 .baner {
     
-    letter-spacing: 0.02em;
+    /*letter-spacing: 0.02em;*/
   
     /*display: flex;*/
-    text-align: center; 
-    /*max-width: 1158px;
-    margin: 0  auto;*/
-  }
-  .baner .container{
+    /*text-align: center; 
+    /*max-width: 1158px;*/
+    /*margin: 0  auto;*/
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+  
+  }
+  .baner .container{
+    /*background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;*/
   }
   .banner_heading {
     color: #FFFFFF;
@@ -247,11 +251,12 @@ a:focus {
    
 }
 
-.team {
+.team_name {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
     width: 100%;
+    margin-bottom: 72px;
 }
 .group {
     color: #2E2F42;
